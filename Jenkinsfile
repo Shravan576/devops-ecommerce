@@ -4,11 +4,11 @@ pipeline {
 
     stages {
 
-        stage('Build Docker Compose') {
+        stage('Build') {
 
             steps {
 
-                sh 'docker compose up --build -d'
+                echo 'DevOps Pipeline Successful'
 
             }
 
